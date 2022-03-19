@@ -10,7 +10,7 @@ public class PingProducer {
 
     private final Random random = new Random();
 
-    @Outgoing("teste-out")
+    @Outgoing("testeout")
     public Multi<String> generate() {
         // Build an infinite stream of random prices
         // It emits a price every second
